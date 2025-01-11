@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb://127.0.0.1:27017/Library");
+mongoose.connect("mongodb+srv://aadarshnarayanps2005:3IsUdY4vqKvFbvEz@cluster0.hokax.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 
 app.post('/signup', async (req, res) => {
